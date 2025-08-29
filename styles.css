@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #004d40, #00796b);
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Botão acessibilidade */
+.menu-acessibilidade {
+    position: relative;
+}
+.opcoes-acessibilidade {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.opcoes-acessibilidade button {
+    margin: 3px;
+}
+.apresenta-lista.mostrar {
+    display: block;
+}
+
+/* Seção inicial */
+.inicio-fundo {
+    background: linear-gradient(135deg, #004d40, #26a69a);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+}
+
+/* Seção sobre */
+.secao-sobre {
+    background-color: #e9f7ef;
+    border-radius: 20px;
+    padding: 30px;
+}
+.secao-sobre h2 {
+    font-weight: bold;
+    color: #004d40;
+}
+
+/* Serviços */
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Formulário */
+.formulario {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Rodapé */
+footer {
+    background: #004d40;
+    color: white;
+}
+footer i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
